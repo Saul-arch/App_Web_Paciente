@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.header{
+    width: 100%;
+    display: flex;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.nav-img{
+    width: 30%;
+    text-align: center;
+}
+.nav-img img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.nav-links{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(61, 57, 57);
+    margin: 0px 10px;
+}
+.nav-links select{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.574);
+    opacity: initial;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: block;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.574);
+}
+.main-logo{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    height: 50%;
+    position: relative;
+}
+.img{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.img-text{
+    width: 50%;
+    text-align: initial;
+    font-family: 'Great Vibes', cursive;
+}
+.main-logo p{
+    font-size: 250%;
+}
+.main-logo img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 55%;
+    height: 100%;
+}
+.main-eslogan{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: relative;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-container{
+    display: flex;
+    width: 75%;
+    height: 710px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.section-div1{
+    width: 50%;
+    height: 100%;
+}
+.section-div1 img{
+    width: 97%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .5s;
+}
+.section-div1:hover img{
+    transform: scale(1.09);
+}
+.section-div2{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.div-2-1{
+    width: 100%;
+    height: 50%;
+}
+.div-2-1 img{
+    width: 100%;
+    height: 97%;
+    object-fit:cover;
+}
+.div-2-2{
+    width: 100%;
+    height: 50%;
+}
+.div-2-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*segunda parte*/
+
+.section-container2{
+    display: flex;
+    width: 75%;
+    height: 710px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.container-div1{
+    display: block;
+    height: 100%;
+    width: 50%;
+}
+.container-imagen1{
+    height: 50%;
+    width: 100%;
+}
+.container-imagen1 img{
+    width: 97%;
+    height: 97%;
+    object-fit: cover;
+}
+.container-imagen2{
+    width: 100%;
+    height: 50%;
+}
+.container-imagen2 img{
+    width: 97%;
+    height: 97%;
+    object-fit: cover;
+}
+.container-div2{
+    width: 50%;
+    height: 100%;
+    /*border: 3px solid red;*/
+}
+.container-div2 .container-imagen2{
+    width: 100%;
+    height: 100%;
+    /*border: 3px solid red;*/
+}
+.container-div2 img{
+    width: 100%;
+    height: 98.5%;
+    object-fit: cover;
+}
+.parrafo {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+/*Formulario de contactos*/
+.form-contact{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contacto{
+    width: 50%;
+}
+.contacto p{
+    font-size: 40px;
+}
+.tel{
+    width: 50%;
+    font-size: 20px;
+}
+.tel img{
+    width: 25px;
+    height: 25px;
+    padding-top: 20px;
+}
+.contacto{
+    text-align: center;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+form{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+.Form-primera-parte{
+    width: 50%;
+}
+.Form-primera-parte p{
+    margin-left: 35%;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.Form-primera-parte select{
+    margin-left: 35%;
+    padding: 10px 0px;
+    font-size: 18px;
+    width: 63%;
+}
+input{
+    margin-left: 35%;
+    width: 63%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.Form-segunda-parte{
+    width: 50%;
+    margin-left: 35px;
+}
+.Form-segunda-parte p{
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.Form-segunda-parte input{
+    margin-left: 0px;
+}
+.Form-segunda-parte select{
+    height: 40px;
+    width: 63%;
+}
+select{
+    margin-bottom: 20px;
+}
+textarea{
+    height: 115px;
+    width: 63%;
+}
+.input-check{
+    width: 13px;
+    height: 13px;
+    margin: 15px 0px;
+}
+.btn-enviar{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-left: 35%;
+    width: 23%;
+    border-radius: 30px;
+    background-color: rgb(50, 147, 179);
+    height: 42px;
+}
+.btn-enviar:hover{
+    background-color: rgb(255, 184, 184);
+}
+.btn-enviar p{
+    margin-left: 0px;
+    text-align: center;
+    font-size: 14px;
+}
+.img-enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-enviar img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.p-enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gato{
+    display: flex;
+    width: 100%;
+    margin-top: 95px;
+}
+.section-nosotros{
+    width: 50%;
+    margin-left: 14%;
+    margin-right: 20px;
+}
+.section-cultura{
+    height: 200px;
+    width: 50%;
+    margin-right: 14%;
+    margin-left: 20px;
+}
+.titulos p{
+    font-size: 45px;
+    color: rgb(113, 111, 111);
+}
+.titulos p1{
+    font-size: 45px;
+    color: rgb(24, 22, 22);
+}
+.parrafos{
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(48, 45, 45);
+    text-align: justify;
+}
+.section-cultura .titulos{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.section-cultura .titulos h4{
+    font-size: 16px;
+    color: rgb(105, 96, 96);
+    margin-left: 25px;
+    border-bottom: 4px solid rgb(2, 2, 2);
+}
+.subtitulos{
+    font-size: 25px;
+    color: rgb(16, 16, 16);
+}
+.textos-cultura{
+    margin: 20px 0px;
+    font-size: 19px;
+}
+.section-cultura-parrafos{
+    margin-top: 109px;
+    text-align: justify;
+}
+/*Empieza a buscar desde aqui*/
+.proyectos{
+    text-align: center;
+    margin-top:60px;
+}
+.proyectos .Titulo{
+    font-size: 40px;
+    color: rgb(45, 45, 45);
+    margin-bottom: 20px;
+}
+.proyectos .subtitulo{
+    font-size: 15px;
+    margin: 0px 20px 50px 50px;
+}
+.section-galeria{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:stretch;
+    justify-content:space-evenly;
+    margin-bottom: 110px;
+    flex-wrap: wrap;
+}
+.galeria-imagen1 img{
+    transition: all .5s;
+}
+.galeria-imagen1:hover img{
+    transform: scale(1.09);
+}
+/***************************************************************/
+.galeria-imagen2{
+    position: relative;
+}
+.galeria-imagen2 img{
+    transition: all .5s;
+}
+.imagen2-h11 p{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.text_oculto{
+    background: rgb(0, 0, 0, .7);
+    position: absolute;
+    top: -1000%;
+    left: 0;
+    text-align: justify;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+.galeria-imagen2:hover .text_oculto{
+    top: 0;
+}
+/*****************************************************************/
+.section-galeria img{
+    width: 470px;
+    height: 470px;
+    object-fit: cover;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 60px 0px;
+}
+.footer_1parte p{
+    font-size: 17px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer p{
+    color: white;
+}
+.footer .logoempresa{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    
+}
+.footer .logosocial{
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px;
+    padding-left: 10px;
+}
+.footer h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.listaTipos a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.listaTipos li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.footer div{
+    width: 20%;
+}
+.footer_fin{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer_fin_fin{
+    width: 49%;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+/*Gcg!(ydFBfGHa#j5cobk*/
